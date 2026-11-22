@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Header } from "../components/Header";
 import { TRIP } from "../data";
 import { colors } from "../theme";
+import { BackHomeFab } from "../components/BackHomeFab";
 
 export default function StayScreen() {
   return (
@@ -32,6 +33,7 @@ export default function StayScreen() {
           </View>
         ))}
       </ScrollView>
+      <BackHomeFab />
     </SafeAreaView>
   );
 }

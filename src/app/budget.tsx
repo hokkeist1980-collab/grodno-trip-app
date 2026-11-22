@@ -4,6 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Header } from "../components/Header";
 import { ScenarioId, TRIP } from "../data";
 import { colors } from "../theme";
+import { BackHomeFab } from "../components/BackHomeFab";
 
 const TIPS = [
   "Жильё — квартира вместо отеля: −60 BYN с человека.",
@@ -76,6 +77,7 @@ export default function BudgetScreen() {
           ))}
         </View>
       </ScrollView>
+      <BackHomeFab />
     </SafeAreaView>
   );
 }

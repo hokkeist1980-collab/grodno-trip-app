@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Header } from "../components/Header";
 import { TRIP } from "../data";
 import { colors } from "../theme";
+import { BackHomeFab } from "../components/BackHomeFab";
 
 export default function FoodScreen() {
   return (
@@ -27,6 +28,7 @@ export default function FoodScreen() {
           </View>
         ))}
       </ScrollView>
+      <BackHomeFab />
     </SafeAreaView>
   );
 }
