@@ -1,0 +1,43 @@
+﻿{
+  "expo": {
+    "name": "Гродно 25–27",
+    "slug": "grodno-trip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "grodno",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0c1814",
+    "splash": {
+      "backgroundColor": "#0c1814",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hokke.grodno"
+    },
+    "android": {
+      "package": "com.hokke.grodno",
+      "adaptiveIcon": {
+        "backgroundColor": "#0c1814",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
