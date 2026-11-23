@@ -1,4 +1,4 @@
-﻿import { Pressable, StyleSheet, View, type ViewStyle } from "react-native";
+import { Pressable, StyleSheet, type ViewStyle } from "react-native";
 import { useRouter } from "expo-router";
 import Svg, { Path } from "react-native-svg";
 import { colors } from "../theme";
